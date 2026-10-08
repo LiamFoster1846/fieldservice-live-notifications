@@ -1,0 +1,12 @@
+{
+  "name": "fieldservice-live-notifications",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/demo.ts",
+    "test": "node --experimental-strip-types test/notification_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.6.3" }
+}
